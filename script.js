@@ -1,4 +1,4 @@
-// Registros compartidos hasta ahora. Agrega nuevos niveles dentro de este arreglo.
+// Registros compartidos hasta ahora
 const levelsData = [
   {name:"Nullscapes", world:10, latam:1, players:[{name:"Theitha", country:"Panamá"}]},
   {name:"Every End", world:14, latam:2, players:[{name:"Samot", country:"Argentina"}]},
