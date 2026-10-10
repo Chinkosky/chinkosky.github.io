@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LATAM Demon List V.Indev1.1.0</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="tag">GEOMETRY DASH · LATAM</div>
+    <h1>LATAM <span>DEMON LIST</span></h1>
+    <p>Una lista comunitaria de los récords más difíciles de LATAM.</p>
+    <div class="hero-stats"><div><strong id="levelTotal">4</strong><small>NIVELES</small></div><div><strong id="playerTotal">9</strong><small>JUGADORES</small></div></div>
+  </header>
+
+  <main class="wrap">
+    <div class="section-heading"><div><span class="tag">RANKING PROVISIONAL</span><h2>Récords de la comunidad</h2></div><span class="status">EN CONSTRUCCIÓN</span></div>
+    <section class="filters">
+      <input id="search" type="search" placeholder="Buscar nivel o jugador…" aria-label="Buscar nivel o jugador">
+      <select id="country" aria-label="Filtrar por país"><option value="">Todos los países</option></select>
+    </section>
+    <section id="levels" class="levels"></section>
+    <p class="disclaimer">Datos introducidos a partir de la información compartida. Las posiciones son provisionales y no han sido verificadas de forma independiente.</p>
+  </main>
+
+  <div class="overlay hidden" id="overlay" role="dialog" aria-modal="true" aria-labelledby="detailName">
+    <article class="detail">
+      <button class="close" id="close" aria-label="Cerrar">×</button>
+      <span class="tag" id="detailLatam"></span>
+      <h2 id="detailName"></h2>
+      <p class="global" id="detailGlobal"></p>
+      <div class="rule"></div>
+      <h3>Jugadores registrados en LATAM</h3>
+      <div id="detailPlayers"></div>
+      <div class="extra"><h3>Más información</h3><p>Próximamente: ID del nivel, vídeos de las completaciones y progresos de otros jugadores latinoamericanos.</p></div>
+    </article>
+  </div>
+  <footer>LATAM Demon List · Proyecto comunitario no oficial</footer>
+  <script src="script.js"></script>
+</body>
+</html>
