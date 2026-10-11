@@ -7,7 +7,7 @@ const levelsData = [
     "players": [
       {
         "name": "Theitha",
-        "country": "panamá"
+        "country": "Panamá"
       }
     ]
   },
@@ -18,7 +18,7 @@ const levelsData = [
     "players": [
       {
         "name": "Samot",
-        "country": "argentina"
+        "country": "Argentina"
       }
     ]
   },
@@ -33,7 +33,7 @@ const levelsData = [
       },
       {
         "name": "thiagar",
-        "country": "argentina"
+        "country": "Argentina"
       },
       {
         "name": "horuszed",
@@ -51,16 +51,16 @@ const levelsData = [
     "latam": 4,
     "players": [
       {
-        "name": "Xmercurylamp",
-        "country": "brazil"
+        "name": "xmercurylamp",
+        "country": "Brasil"
       },
       {
         "name": "pizi",
-        "country": "chile"
+        "country": "Chile"
       },
       {
         "name": "abdieldevil",
-        "country": "perú"
+        "country": "Perú"
       }
     ]
   },
@@ -75,7 +75,7 @@ const levelsData = [
       },
       {
         "name": "manu",
-        "country": "chile"
+        "country": "Chile"
       }
     ]
   },
@@ -90,7 +90,7 @@ const levelsData = [
       },
       {
         "name": "xmercurylamp",
-        "country": "brazil"
+        "country": "Brasil"
       }
     ]
   },
@@ -101,7 +101,7 @@ const levelsData = [
     "players": [
       {
         "name": "Abdieldevil",
-        "country": "perú"
+        "country": "Perú"
       }
     ]
   },
@@ -116,15 +116,15 @@ const levelsData = [
       },
       {
         "name": "Paltadashg",
-        "country": "chile"
+        "country": "Chile"
       },
       {
         "name": "abdieldevil",
-        "country": "perú"
+        "country": "Perú"
       },
       {
         "name": "xmercurylamp",
-        "country": "brazil"
+        "country": "Brasil"
       },
       {
         "name": "Raffox",
@@ -132,7 +132,7 @@ const levelsData = [
       },
       {
         "name": "pizi",
-        "country": "chile"
+        "country": "Chile"
       },
       {
         "name": "stevenxd42",
@@ -151,11 +151,11 @@ const levelsData = [
       },
       {
         "name": "strikk",
-        "country": "brasil"
+        "country": "Brasil"
       },
       {
         "name": "bixeo",
-        "country": "chile"
+        "country": "Chile"
       },
       {
         "name": "vsce",
@@ -174,11 +174,11 @@ const levelsData = [
       },
       {
         "name": "el terror de las coneras",
-        "country": "perú"
+        "country": "Perú"
       },
       {
         "name": "xmercurylamp",
-        "country": "brasil"
+        "country": "Brasil"
       },
       {
         "name": "diris",
@@ -193,7 +193,7 @@ const levelsData = [
     "players": [
       {
         "name": "monodynamics",
-        "country": "brasil"
+        "country": "Brasil"
       }
     ]
   },
@@ -212,11 +212,11 @@ const levelsData = [
       },
       {
         "name": "manu",
-        "country": "chile"
+        "country": "Chile"
       },
       {
         "name": "pizi",
-        "country": "chile"
+        "country": "Chile"
       },
       {
         "name": "stevenxd42",
@@ -239,11 +239,11 @@ const levelsData = [
       },
       {
         "name": "xmercurylamp",
-        "country": "brasil"
+        "country": "Brasil"
       },
       {
         "name": "pizi",
-        "country": "chile"
+        "country": "Chile"
       },
       {
         "name": "~ lenii.",
@@ -255,7 +255,7 @@ const levelsData = [
       },
       {
         "name": "JulianLM",
-        "country": "argentina"
+        "country": "Argentina"
       },
       {
         "name": "thiagar",
@@ -263,11 +263,11 @@ const levelsData = [
       },
       {
         "name": "monodynamics",
-        "country": "brasil"
+        "country": "Brasil"
       },
       {
         "name": "Abdieldevil",
-        "country": "peru"
+        "country": "Perú"
       },
       {
         "name": "Staizensk",
