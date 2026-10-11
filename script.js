@@ -1,18 +1,430 @@
-// Registros compartidos hasta ahora
+// Registros compartidos por la comunidad. Los datos se conservan tal como fueron proporcionados.
 const levelsData = [
-  {name:"Nullscapes", world:10, latam:1, players:[{name:"Theitha", country:"Panamá"}]},
-  {name:"Every End", world:14, latam:2, players:[{name:"Samot", country:"Argentina"}]},
-  {name:"Silent Clubstep", world:16, latam:3, players:[
-    {name:"Aless50", country:"Venezuela"},
-    {name:"Thiagar", country:"Argentina"},
-    {name:"Horuszed", country:"Chile"},
-    {name:"Agatha", country:"Paraguay"}
-  ]},
-  {name:"Andromeda", world:19, latam:4, players:[
-    {name:"xmercurylamp", country:"Brasil"},
-    {name:"Pizi", country:"Chile"},
-    {name:"Abdieldevil", country:"Perú"}
-  ]}
+  {
+    "name": "Nullscapes",
+    "world": 10,
+    "latam": 1,
+    "players": [
+      {
+        "name": "Theitha",
+        "country": "panamá"
+      }
+    ]
+  },
+  {
+    "name": "Every End",
+    "world": 14,
+    "latam": 2,
+    "players": [
+      {
+        "name": "Samot",
+        "country": "argentina"
+      }
+    ]
+  },
+  {
+    "name": "Silent Clubstep",
+    "world": 16,
+    "latam": 3,
+    "players": [
+      {
+        "name": "Aless50",
+        "country": "Venezuela"
+      },
+      {
+        "name": "thiagar",
+        "country": "argentina"
+      },
+      {
+        "name": "horuszed",
+        "country": "Chile"
+      },
+      {
+        "name": "agatha",
+        "country": "Paraguay"
+      }
+    ]
+  },
+  {
+    "name": "Andromeda",
+    "world": 19,
+    "latam": 4,
+    "players": [
+      {
+        "name": "Xmercurylamp",
+        "country": "brazil"
+      },
+      {
+        "name": "pizi",
+        "country": "chile"
+      },
+      {
+        "name": "abdieldevil",
+        "country": "perú"
+      }
+    ]
+  },
+  {
+    "name": "Subsuming Vortex",
+    "world": 21,
+    "latam": 5,
+    "players": [
+      {
+        "name": "Rodmentor",
+        "country": "Colombia"
+      },
+      {
+        "name": "manu",
+        "country": "chile"
+      }
+    ]
+  },
+  {
+    "name": "Anathema",
+    "world": 22,
+    "latam": 6,
+    "players": [
+      {
+        "name": "Yuuwi",
+        "country": "México"
+      },
+      {
+        "name": "xmercurylamp",
+        "country": "brazil"
+      }
+    ]
+  },
+  {
+    "name": "Avernus",
+    "world": 23,
+    "latam": 7,
+    "players": [
+      {
+        "name": "Abdieldevil",
+        "country": "perú"
+      }
+    ]
+  },
+  {
+    "name": "Acheron",
+    "world": 24,
+    "latam": 8,
+    "players": [
+      {
+        "name": "RaeveZ",
+        "country": "Colombia"
+      },
+      {
+        "name": "Paltadashg",
+        "country": "chile"
+      },
+      {
+        "name": "abdieldevil",
+        "country": "perú"
+      },
+      {
+        "name": "xmercurylamp",
+        "country": "brazil"
+      },
+      {
+        "name": "Raffox",
+        "country": "Colombia"
+      },
+      {
+        "name": "pizi",
+        "country": "chile"
+      },
+      {
+        "name": "stevenxd42",
+        "country": "México"
+      }
+    ]
+  },
+  {
+    "name": "Spectre",
+    "world": 25,
+    "latam": 9,
+    "players": [
+      {
+        "name": "luis",
+        "country": "Brasil"
+      },
+      {
+        "name": "strikk",
+        "country": "brasil"
+      },
+      {
+        "name": "bixeo",
+        "country": "chile"
+      },
+      {
+        "name": "vsce",
+        "country": "México"
+      }
+    ]
+  },
+  {
+    "name": "Abyss of Darkness",
+    "world": 27,
+    "latam": 10,
+    "players": [
+      {
+        "name": "DoSh7t",
+        "country": "México"
+      },
+      {
+        "name": "el terror de las coneras",
+        "country": "perú"
+      },
+      {
+        "name": "xmercurylamp",
+        "country": "brasil"
+      },
+      {
+        "name": "diris",
+        "country": "México"
+      }
+    ]
+  },
+  {
+    "name": "Defeated Circles",
+    "world": 28,
+    "latam": 11,
+    "players": [
+      {
+        "name": "monodynamics",
+        "country": "brasil"
+      }
+    ]
+  },
+  {
+    "name": "Tunnel of Despair",
+    "world": 30,
+    "latam": 12,
+    "players": [
+      {
+        "name": "Abdieldevil",
+        "country": "Perú"
+      },
+      {
+        "name": "Norea",
+        "country": "México"
+      },
+      {
+        "name": "manu",
+        "country": "chile"
+      },
+      {
+        "name": "pizi",
+        "country": "chile"
+      },
+      {
+        "name": "stevenxd42",
+        "country": "México"
+      },
+      {
+        "name": "Raffox",
+        "country": "Colombia"
+      }
+    ]
+  },
+  {
+    "name": "kyouki",
+    "world": 31,
+    "latam": 13,
+    "players": [
+      {
+        "name": "manu",
+        "country": "Chile"
+      },
+      {
+        "name": "xmercurylamp",
+        "country": "brasil"
+      },
+      {
+        "name": "pizi",
+        "country": "chile"
+      },
+      {
+        "name": "~ lenii.",
+        "country": "Venezuela"
+      },
+      {
+        "name": "Coheton",
+        "country": "México"
+      },
+      {
+        "name": "JulianLM",
+        "country": "argentina"
+      },
+      {
+        "name": "thiagar",
+        "country": "Argentina"
+      },
+      {
+        "name": "monodynamics",
+        "country": "brasil"
+      },
+      {
+        "name": "Abdieldevil",
+        "country": "peru"
+      },
+      {
+        "name": "Staizensk",
+        "country": "Colombia"
+      }
+    ]
+  },
+  {
+    "name": "Based After Based",
+    "world": 33,
+    "latam": 14,
+    "players": [
+      {
+        "name": "Laurendi",
+        "country": "Argentina"
+      },
+      {
+        "name": "Samot",
+        "country": "Argentina"
+      }
+    ]
+  },
+  {
+    "name": "Slaughterhouse",
+    "world": 37,
+    "latam": 15,
+    "players": [
+      {
+        "name": "RaeveZ",
+        "country": "Colombia"
+      },
+      {
+        "name": "Emiliano56",
+        "country": "México"
+      },
+      {
+        "name": "Hipo",
+        "country": "Argentina"
+      },
+      {
+        "name": "Abdieldevil",
+        "country": "Perú"
+      },
+      {
+        "name": "Donei GD",
+        "country": "México"
+      },
+      {
+        "name": "Paltadashg",
+        "country": "Chile"
+      },
+      {
+        "name": "Kramujo",
+        "country": "Brasil"
+      },
+      {
+        "name": "sykaav",
+        "country": "Costa Rica"
+      },
+      {
+        "name": "o.kuang",
+        "country": "México"
+      },
+      {
+        "name": "sunix",
+        "country": "Panamá"
+      },
+      {
+        "name": "Theitha",
+        "country": "Panamá"
+      },
+      {
+        "name": "Raffox",
+        "country": "Colombia"
+      },
+      {
+        "name": "pizi",
+        "country": "Chile"
+      },
+      {
+        "name": "manu",
+        "country": "Chile"
+      },
+      {
+        "name": "Tihra",
+        "country": "Brasil"
+      },
+      {
+        "name": "Swooker",
+        "country": "Colombia"
+      },
+      {
+        "name": "NanduO3O",
+        "country": "Brasil"
+      },
+      {
+        "name": "vicente",
+        "country": "Brasil"
+      },
+      {
+        "name": "xmercurylamp",
+        "country": "Argentina"
+      },
+      {
+        "name": "elsanti33",
+        "country": "Chile"
+      },
+      {
+        "name": "spookixz",
+        "country": "Argentina"
+      },
+      {
+        "name": "Fiumba",
+        "country": "México"
+      },
+      {
+        "name": "CharlyBustaRamos",
+        "country": "Argentina"
+      },
+      {
+        "name": "Bladersb",
+        "country": "Chile"
+      },
+      {
+        "name": "kOre",
+        "country": "Venezuela"
+      },
+      {
+        "name": "Aless50",
+        "country": "Venezuela"
+      },
+      {
+        "name": "AlecZD",
+        "country": "Chile"
+      },
+      {
+        "name": "Horuszed",
+        "country": "Venezuela"
+      },
+      {
+        "name": "ChochoGD",
+        "country": "Colombia"
+      },
+      {
+        "name": "MateoGD04",
+        "country": "México"
+      },
+      {
+        "name": "Alemao",
+        "country": "Brasil"
+      },
+      {
+        "name": "CringyDylan",
+        "country": "Brasil"
+      }
+    ]
+  }
 ];
 
 const list = document.getElementById("levels");
