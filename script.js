@@ -119,7 +119,7 @@ const levelsData = [
         "country": "Chile"
       },
       {
-        "name": "abdieldevil",
+        "name": "Abdieldevil",
         "country": "Perú"
       },
       {
