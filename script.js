@@ -424,6 +424,21 @@ const levelsData = [
         "country": "Brasil"
       }
     ]
+  },
+  {
+    "name": "Subterminal Point",
+    "world": 38,
+    "latam": 16,
+    "players": [
+      {
+        "name": "pizi",
+        "country": "Chile"
+      },
+      {
+        "name": "playlino",
+        "country": "Argentina"
+      }
+    ]
   }
 ];
 
